@@ -20,6 +20,11 @@
    height: 400px !important;
  }
 
+ @media only screen and (max-width: 570px) {
+   #booking-form {
+     display: none !important;
+   }
+ }
 
 
 /*!
@@ -5179,6 +5184,7 @@ button.bg-dark:focus {
     display: inline-flex !important; } }
 
 @media (min-width: 768px) {
+
   .d-md-none {
     display: none !important; }
   .d-md-inline {
@@ -5203,6 +5209,7 @@ button.bg-dark:focus {
     display: inline-flex !important; } }
 
 @media (min-width: 992px) {
+  
   .d-lg-none {
     display: none !important; }
   .d-lg-inline {
@@ -5465,6 +5472,7 @@ button.bg-dark:focus {
   align-self: stretch !important; }
 
 @media (min-width: 576px) {
+  
   .flex-sm-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;

@@ -1,7 +1,9 @@
  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-       <img src="./images/Sahid.svg" alt="" class="float-left" style="height:70px;" >
-      <a class="navbar-brand" href="./">Trip Tourice</a>
+      <a class="navbar-brand" href="./">
+               <!-- <img src="./images/logo1.png" alt="" class="float-left" style="height:70px;" > -->
+TripTourice
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>

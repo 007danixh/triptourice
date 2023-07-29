@@ -13,7 +13,7 @@ if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
 $name = $_POST['name'];
 $mailFrom = $_POST['email'];
 $phone = $_POST['phone'];
-$message = $_POST['message'];
+$message = isset($_POST['message'])?$_POST['message']: "";
 
 $mailTo = "info@triptourice.com";
 $headers = ['From' => $mailFrom, 'Reply-To' => $mailTo, 'Content-type' => 'text/html; charset=iso-8859-1'];
@@ -23,7 +23,7 @@ $headers = ['From' => $mailFrom, 'Reply-To' => $mailTo, 'Content-type' => 'text/
 
 $txt = "You have received an e-mail from " . $name . "\n\n" . $message . " The Contact number is " . $phone;
 
-if (mail($mailTo, 'NeverSleeps', $txt, $headers)) {
+if (mail($mailTo, 'Trip Tourice', $txt, $headers)) {
 
     $_SESSION['message'] = "Your message have been sent successfully, We will get back to you soon!";
     header('Location: ' . $_SERVER['HTTP_REFERER']);

@@ -6,6 +6,11 @@ include './layouts/app.php';
 include './layouts/header.php';
 
 ?>
+
+<?php
+
+include './layouts/message.php';
+?>
 <!-- END nav -->
 
 <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');">
@@ -13,10 +18,15 @@ include './layouts/header.php';
 	<div class="container">
 		<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
 			<div class="col-md-9 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-				<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong>NeverSleeps <br></strong>We don’t sleep until you are back home </h1>
+				<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong>Trip Tourice Holidays <br></strong>Visit, Discover & Explore </h1>
+
+
 				<!-- <h4  data-scrollax="properties: { translateY: '30%', opacity: 1.6  }"> <b> Kashmir Tour & Travel </b></h4> -->
-				<!-- <div class="block-17 my-4">
-					<form action="" method="post" class="d-block d-flex">
+				<div class="block-17 my-4">
+					<?php
+					include './layouts/booking-form.php';
+					?>
+					<!-- <form action="" method="post" class="d-block d-flex">
 						<div class="fields d-block d-flex">
 							<div class="textfield-search one-third">
 								<input type="text" class="form-control" placeholder="Ex: food, service, hotel">
@@ -33,7 +43,7 @@ include './layouts/header.php';
 							</div>
 						</div>
 						<input type="submit" class="search-submit btn btn-primary" value="Search">
-					</form>
+					</form> -->
 				</div>
 				<p>Or browse the highlights</p>
 				<p class="browse d-md-flex">
@@ -41,9 +51,11 @@ include './layouts/header.php';
 					<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-hotel"></i>Hotel</a></span>
 					<span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-meeting-point"></i>Places</a></span>
 					<span class="d-flex justify-content-md-center align-items-md-	center"><a href="#"><i class="flaticon-shopping-bag"></i>Shopping</a></span>
-				</p> -->
+				</p>
 			</div>
+
 		</div>
+
 	</div>
 </div>
 
@@ -223,9 +235,9 @@ include './layouts/header.php';
 									<i class="icon-star-o"></i>
 									<span>4 Rating</span>
 								</p>
-								
+
 								<span class="price font-weight-bold">Starting from INR 15,000/Person</span>
-							
+
 
 							</div>
 							<!-- <div class="two">
@@ -478,8 +490,8 @@ include './layouts/header.php';
 					</div>
 				</div>
 			</div>
-			
-			
+
+
 		</div>
 	</div>
 </section>
