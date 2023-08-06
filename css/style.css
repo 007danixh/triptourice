@@ -2,6 +2,8 @@
 
 //Custom css
 
+COLOR:
+#44b0d4
 
 */
 
@@ -7333,7 +7335,7 @@ h1, h2, h3, h4, h5,
   color: #f85959 !important; }
 
 .ftco-navbar-light {
-  /* background: transparent !important; */
+  background: #44b0d4 !important;
   position: absolute;
   top: 20px;
   left: 0;
@@ -7341,7 +7343,7 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #44b0d4 !important;
       position: relative;
       top: 0; } }
   .ftco-navbar-light .navbar-brand {
@@ -8226,11 +8228,15 @@ textarea.form-control {
       padding: 0 4em; } }
 
 .ftco-bg-dark {
-  background: #3c312e; }
+  /* background: #3c312e; */
+  background: #44b0d4;
+ }
 
 .ftco-footer {
   font-size: 16px;
-  background: #222831;
+  /* background: #222831;
+   */
+   background: #44b0d4;
   padding: 8em 0 8em 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;

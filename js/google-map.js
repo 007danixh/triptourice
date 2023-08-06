@@ -62,11 +62,10 @@
 // }
 // google.maps.event.addDomListener(window, 'load', init);
 
-
 function initMap() {
-  var mapCenter = { lat: 34.097598, lng: 74.82319 }; // Rainawari
+  var mapCenter = { lat: 34.07800, lng: 74.8090 }; // 34.07820348759185, 74.80908012009604
   var map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 16,
+    zoom: 18,
     center: mapCenter,
   });
 

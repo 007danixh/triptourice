@@ -7,8 +7,8 @@
     <div class="row mb-5">
       <div class="col-md">
         <div class="ftco-footer-widget mb-4">
-          <h2 class="ftco-heading-2">Trip Tourice <br> Kashmir Tour & Travel</h2>
-          <img src="./images/Sahid.svg" alt="" class="float-left" style="height:70px;"> <br>
+          <h2 class="ftco-heading-2">Trip Tourice Holidays <br> Visit, Discover & Explore</h2>
+          <img src="./images/logo-transparentbg-2.png" alt="" class="float-left" style="height:70px;"> <br>
           <p style="margin-top:50px">Experience the breathtaking landscapes and rich culture of Kashmir with our expertly crafted tour and travel packages. Book now!.</p>
           <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
             <li class="ftco-animate"><a href="https://twitter.com/Neversleepsk"><span class="icon-twitter"></span></a></li>
@@ -48,9 +48,10 @@
           <h2 class="ftco-heading-2">Have a Questions?</h2>
           <div class="block-23 mb-3">
             <ul>
-              <li><span class="icon icon-map-marker"></span><span class="text">Kralyar Jogi Lankar Rainawari, Srinagar Kashmir, 190003</span></li>
-              <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 9541 403 714</span></a></li>
-              <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@triptourice.com</span></a></li>
+              <li><span class="icon icon-map-marker"></span><span class="text"><a href="https://goo.gl/maps/iT4Gfqn4DweRbCbn7
+">Barbar Shah, Habba Kadal, Srinagar, Jammu and Kashmir 190001</a></span></li>
+              <li><a href="tel:919541403714 "><span class="icon icon-phone"></span><span class="text">+91 9541 403 714</span></a></li>
+              <li><a href="#mailto:info@triptourice.com"><span class="icon icon-envelope"></span><span class="text">info@triptourice.com</span></a></li>
             </ul>
           </div>
         </div>
@@ -59,11 +60,11 @@
     <div class="row">
       <div class="col-md-12 text-center">
 
-        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        <p>
           Copyright &copy;<script>
             document.write(new Date().getFullYear());
-          </script> All rights reserved | Trip Tourice Kashmir Tour & Travel <br> Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://digitallyelite.com" target="_blank">Digitally Elite</a>
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </script> All rights reserved | Trip Tourice Holidays <br> Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://digitallyelite.com" target="_blank">Digitally Elite</a>
+          </p>
       </div>
     </div>
   </div>

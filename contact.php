@@ -33,16 +33,17 @@ include './layouts/message.php';
       </div>
       <div class="w-100"></div>
       <div class="col-md-3">
-        <p><span>Address:</span> Kralyar Jogi Lankar Rainawari, Srinagar Kashmir, 190003</p>
+        <p><span>Address:</span> <a href="https://goo.gl/maps/iT4Gfqn4DweRbCbn7
+">Barbar Shah, Habba Kadal, Srinagar, Jammu and Kashmir 190001</a></p>
       </div>
       <div class="col-md-3">
-        <p><span>Phone:</span> <a href="tel://1234567920">+91 9797 973 325</a></p>
+        <p><span>Phone:</span> <a href="tel:919541403714">+91 9541 403 714</a></p>
       </div>
       <div class="col-md-3">
-        <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@neversleepskashmir.com</a></p>
+        <p><span>Email:</span> <a href="mailto:info@triptourice.com">info@triptourice.com</a></p>
       </div>
       <div class="col-md-3">
-        <p><span>Website:</span> <a href="#">neversleepskashmir.com</a></p>
+        <p><span>Website:</span> <a href="#">triptourice.com</a></p>
       </div>
     </div>
 

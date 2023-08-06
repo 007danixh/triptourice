@@ -446,7 +446,7 @@ include './layouts/message.php';
 </section>
 
 
-<section class="ftco-section">
+<!-- <section class="ftco-section">
 	<div class="container">
 		<div class="row justify-content-start mb-5 pb-3">
 			<div class="col-md-7 heading-section ftco-animate">
@@ -478,7 +478,7 @@ include './layouts/message.php';
 								</p>
 							</div>
 							<div class="two">
-								<!-- <span class="price per-price">$40<br><small>/night</small></span> -->
+								<span class="price per-price">$40<br><small>/night</small></span>
 							</div>
 						</div>
 						<p>Far far away, behind the word mountains, far from the countries</p>
@@ -494,7 +494,7 @@ include './layouts/message.php';
 
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section class="ftco-section testimony-section bg-light">
 	<div class="container">
@@ -521,8 +521,8 @@ include './layouts/message.php';
 										</span>
 									</div>
 									<div class="text ml-md-4">
-										<p class="mb-5">I had the pleasure of booking a tour package with this company, and I was blown away by the quality of service and attention to detail. Everything was taken care of, from transportation to accommodations to activities.</p>
-										<p class="name">Sohail Ahmad</p>
+										<p class="mb-5">This was the first time we travelled with Trip Tourice holidays. It was the most memorable and beautiful family trip to kashmir. I would like to thank Ms. Midhat for arranging everything very smoothly and specially for her guidance throughout the trip. Trip was well planned and organized. The hotels, food and Houseboat was very good. Our Cab was on time to pickup at airport. It was a wonderful experience.</p>
+										<p class="name">Faiz Khan</p>
 										<span class="position">Guest from hydrabad</span>
 									</div>
 								</div>
@@ -535,7 +535,7 @@ include './layouts/message.php';
 										</span>
 									</div>
 									<div class="text ml-md-4">
-										<p class="mb-5">I recently went on a tour with this company and was thoroughly impressed by their professionalism and customer service. The itinerary was well-planned and catered to our interests, and the accommodations and activities exceeded our expectations.</p>
+										<p class="mb-5">Has a great trip, some ups and down. But our problems were swiftly and promptly handled by Midhat ( trip tourice holiday)Good choice of hotels provided by them.</p>
 										<p class="name">Rahul Kapoor</p>
 										<span class="position">Guest from Delhi</span>
 									</div>
@@ -549,8 +549,8 @@ include './layouts/message.php';
 										</span>
 									</div>
 									<div class="text ml-md-4">
-										<p class="mb-5">My husband and I booked a honeymoon package with this company, and we were blown away by the level of personalization and attention to detail.</p>
-										<p class="name">Priya </p>
+										<p class="mb-5">Thanks Trip Tourice for arranging my holiday package for Jammu and Kashmir. Me and my family enjoyed our vacations. Next whenever we'll plan our holidays we be in touch with you so that we can comfortably enjoy our vacations.</p>
+										<p class="name">Sajida Sultana </p>
 										<span class="position">Guest from mumbai</span>
 									</div>
 								</div>
