@@ -31,9 +31,9 @@ if (mail($mailTo, 'Trip Tourice', $txt, $headers)) {
 }
 
 // testing this should be removed in prod.
-// mail($mailTo, 'Seperhr', $txt, $headers);
-// $_SESSION['message'] = "Your message have been sent successfully.";
-// header('Location: ' . $_SERVER['HTTP_REFERER']);
+mail($mailTo, 'Seperhr', $txt, $headers);
+$_SESSION['message'] = "Your message have been sent successfully.";
+header('Location: ' . $_SERVER['HTTP_REFERER']);
 
 }
  else {

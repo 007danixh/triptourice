@@ -3,7 +3,7 @@
          color: red;
      }
  </style>
-<form id="booking-form" name="conForm" action="./layouts/contact-form-logic" method="POST"  onsubmit=" return validateForm()" class="d-block d-flex contact-form">
+ <!-- <form id="booking-form" name="conForm" action="./layouts/contact-form-logic" method="POST"  onsubmit=" return validateForm()" class="d-block d-flex contact-form">
     <div class="fields d-block d-flex">
         <div class="textfield-search one-third">
             <input required type="text" name="name" class="form-control" placeholder="Name">
@@ -17,7 +17,7 @@
             <input required type="text" name="phone" class="form-control" placeholder="Phone">
              <span class="formErr" id="phone"></span>
         </div>
-        <!-- <div class="select-wrap one-third">
+        <div class="select-wrap one-third">
             <div class="icon"><span class="ion-ios-arrow-down"></span></div>
             <select name="" id="" class="form-control" placeholder="Keyword search">
                 <option value="">Where</option>
@@ -26,14 +26,40 @@
                 <option value="">Lodon United Kingdom</option>
                 <option value="">Paris Italy</option>
             </select>
-        </div> -->
+        </div>
     </div>
     <button type="submit" name="submit" class="search-submit btn btn-primary">Book Now</button>
-</form>
+</form> -->
 
 
-<script>
-  
+
+     <div class="col-md-3" id="booking-form">
+         <form name="conForm" action="./layouts/contact-form-logic" method="POST" class="contact-form" onsubmit=" return validateForm()">
+             <div class="form-group">
+                 <input type="text" name="name" class="form-control" required placeholder="Your Name">
+                 <span class="formErr" id="name"></span>
+             </div>
+             <div class="form-group">
+                 <input type="email" name="email" class="form-control" required placeholder="Your Email">
+                 <span class="formErr" id="email"></span>
+             </div>
+             <div class="form-group">
+                 <input type="text" class="form-control" name="phone" required placeholder="Phone No.">
+                 <span class="formErr" id="phone"></span>
+             </div>
+             <div class="form-group">
+                 <textarea name="message" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+                 <span class="formErr" id="message"></span>
+             </div>
+             <div class="form-group">
+                 <button type="submit" name="submit" value="Send Message" class="btn btn-primary py-3 px-5"> Book Now </button>
+             </div>
+         </form>
+     </div>
+
+
+
+ <script>
      //   Clear errors
      function clearErrors() {
          element = document.getElementsByClassName('formErr');
@@ -60,7 +86,7 @@
          var name = document.forms['conForm']['name'].value;
          var email = document.forms['conForm']['email'].value;
          var phone = document.forms['conForm']['phone'].value;
-        //  var message = document.forms['conForm']['message'].value;
+          var message = document.forms['conForm']['message'].value;
 
          if (name.length < 5) {
 
@@ -78,16 +104,16 @@
              setError('phone', '* Phone number should be at least 10 digits.');
              returnval = false;
          }
-        //  if (message.length < 2) {
+          if (message.length < 2) {
 
-        //      setError('message', '* Message should  be greater than 20 characters');
-        //      returnval = false;
-        //  }
-        //  if (message.length > 255) {
+              setError('message', '* Message should  be greater than 20 characters');
+              returnval = false;
+          }
+          if (message.length > 255) {
 
-        //      setError('message', '* Message should not be greater than 255 characters');
-        //      returnval = false;
-        //  }
+              setError('message', '* Message should not be greater than 255 characters');
+              returnval = false;
+          }
          if (!email.match(validRegex)) {
              setError('email', '* Email must be of type email.');
              returnval = false;

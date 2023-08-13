@@ -23,9 +23,7 @@ include './layouts/message.php';
 
 				<!-- <h4  data-scrollax="properties: { translateY: '30%', opacity: 1.6  }"> <b> Kashmir Tour & Travel </b></h4> -->
 				<div class="block-17 my-4">
-					<?php
-					include './layouts/booking-form.php';
-					?>
+					
 					<!-- <form action="" method="post" class="d-block d-flex">
 						<div class="fields d-block d-flex">
 							<div class="textfield-search one-third">
@@ -53,6 +51,34 @@ include './layouts/message.php';
 					<span class="d-flex justify-content-md-center align-items-md-	center"><a href="#"><i class="flaticon-shopping-bag"></i>Shopping</a></span>
 				</p> -->
 			</div>
+
+			<!-- <div class="col-md-3">
+				   <form name="conForm" action="./layouts/contact-form-logic" method="POST" class="contact-form" onsubmit=" return validateForm()">
+                         <div class="form-group">
+                             <input type="text" name="name" class="form-control" required placeholder="Your Name">
+                             <span class="formErr" id="name"></span>
+                         </div>
+                         <div class="form-group">
+                             <input type="email" name="email" class="form-control" required placeholder="Your Email">
+                             <span class="formErr" id="email"></span>
+                         </div>
+                         <div class="form-group">
+                             <input type="text" class="form-control" name="phone" required placeholder="Phone No.">
+                             <span class="formErr" id="phone"></span>
+                         </div>
+                         <div class="form-group">
+                             <textarea name="message" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+                             <span class="formErr" id="message"></span>
+                         </div>
+                         <div class="form-group">
+                             <button type="submit" name="submit" value="Send Message" class="btn btn-primary"> Book Now </button>
+                         </div>
+                     </form>
+			</div> -->
+
+			<?php
+			include './layouts/booking-form.php'
+			?>
 
 		</div>
 
