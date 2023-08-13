@@ -316,8 +316,8 @@ include './layouts/places.php'
 			<div class="col-md-5 heading-section ftco-animate">
 				<span class="subheading">About Us</span>
 				<h2 class="mb-4 pb-3"><strong>Why</strong> Choose Us?</h2>
-				<p>Experience the beauty of Kashmir like never before with our exclusive tour packages. From majestic snow-capped mountains to pristine lakes and charming local villages, our customized itineraries offer something for everyone. </p>
-				<p>With our expert planning and top-notch services, you can sit back, relax, and enjoy a hassle-free travel experience. Come and discover the magic of Kashmir with us!.</p>
+				<p>Trip Tourice is committed to providing our clients with exceptional service a complete end to end booking solution covering all aspects of your travel tailored in house at an affordable prize with pro-active customer service. Those who have affection for travelling.  </p>
+				<p>We would be delighted to provide support to those who really love to roam around, no matter where the destination is! The offers and discounts are generous as we are planning for more comfortable and efficient packages.</p>
 				<p><a href="./about.php" class="btn btn-primary btn-outline-primary mt-4 px-4 py-3">Read more</a></p>
 			</div>
 			<div class="col-md-1"></div>
