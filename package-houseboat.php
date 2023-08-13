@@ -12,13 +12,13 @@ include './layouts/header.php';
 include './layouts/message.php';
 ?>
 
-<div class="hero-wrap js-fullheight customHero" style="background-image: url('images/bg_3.jpg');">
+<div class="hero-wrap js-fullheight customHero" style="background-image: url('images/pac_1.jpg');">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
             <div class="col-md-9 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
                 <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Tour</span></p>
-                <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Deluxe Tour Package</h1>
+                <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Houseboat Tour Package</h1>
             </div>
         </div>
     </div>
@@ -29,85 +29,7 @@ include './layouts/message.php';
 <section class="ftco-section ftco-degree-bg">
     <div class="container">
         <div class="row">
-            <!-- <div class="col-lg-3 sidebar">
-        		<div class="sidebar-wrap bg-light ftco-animate">
-        			<h3 class="heading mb-4">Find City</h3>
-        			<form action="#">
-        				<div class="fields">
-		              <div class="form-group">
-		                <input type="text" class="form-control" placeholder="Destination, City">
-		              </div>
-		              <div class="form-group">
-		                <div class="select-wrap one-third">
-	                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-	                    <select name="" id="" class="form-control" placeholder="Keyword search">
-	                      <option value="">Select Location</option>
-	                      <option value="">San Francisco USA</option>
-	                      <option value="">Berlin Germany</option>
-	                      <option value="">Lodon United Kingdom</option>
-	                      <option value="">Paris Italy</option>
-	                    </select>
-	                  </div>
-		              </div>
-		              <div class="form-group">
-		                <input type="text" id="checkin_date" class="form-control" placeholder="Date from">
-		              </div>
-		              <div class="form-group">
-		                <input type="text" id="checkin_date" class="form-control" placeholder="Date to">
-		              </div>
-		              <div class="form-group">
-		              	<div class="range-slider">
-		              		<span>
-										    <input type="number" value="25000" min="0" max="120000"/>	-
-										    <input type="number" value="50000" min="0" max="120000"/>
-										  </span>
-										  <input value="1000" min="0" max="120000" step="500" type="range"/>
-										  <input value="50000" min="0" max="120000" step="500" type="range"/>
-										  </svg>
-										</div>
-		              </div>
-		              <div class="form-group">
-		                <input type="submit" value="Search" class="btn btn-primary py-3 px-5">
-		              </div>
-		            </div>
-	            </form>
-        		</div>
-        		<div class="sidebar-wrap bg-light ftco-animate">
-        			<h3 class="heading mb-4">Star Rating</h3>
-        			<form method="post" class="star-rating">
-							  <div class="form-check">
-									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-									<label class="form-check-label" for="exampleCheck1">
-										<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></p>
-									</label>
-							  </div>
-							  <div class="form-check">
-						      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-						      <label class="form-check-label" for="exampleCheck1">
-						    	   <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i></span></p>
-						      </label>
-							  </div>
-							  <div class="form-check">
-						      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-						      <label class="form-check-label" for="exampleCheck1">
-						      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
-						     </label>
-							  </div>
-							  <div class="form-check">
-							    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-						      <label class="form-check-label" for="exampleCheck1">
-						      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
-						      </label>
-							  </div>
-							  <div class="form-check">
-						      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-						      <label class="form-check-label" for="exampleCheck1">
-						      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
-							    </label>
-							  </div>
-							</form>
-        		</div>
-          </div> -->
+
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-md-12 ftco-animate">
@@ -125,7 +47,7 @@ include './layouts/message.php';
                     </div>
                     <div class="col-md-12 hotel-single mt-4 mb-5 ftco-animate">
                         <span>Our Best Destination &amp; Tour</span>
-                        <h2>Deluxe Tour Package</h2>
+                        <h2>Houseboat Tour Package</h2>
                         <p class="rate mb-5">
                             <span class="loc"><a href="#"><i class="icon-map"></i> 4 Days 3 Nights</a></span>
                             <span class="star">
@@ -138,17 +60,16 @@ include './layouts/message.php';
                         </p>
                         <p>Kashmir valley is the dream destination for everyone to visit in their life time. The serene climate, snow capped mountains and apple trees around make it a visual treat for travellers.</p>
 
-                        <p>The 3 Nights 4 Days Srinagar itinerary allows you to witness the breathtaking and scenic beauty of the place. As part of the package, you will head to Gulmarg and Pahalgam from Srinagar. There are many sporting activities that kids along with elder ones can enjoy.</p>
-
+                        <p>The 3 Nights 4 Days Srinagar itinerary allows you to witness the breathtaking and scenic beauty of the place. As part of the package, you will head to Gulmarg and Sonamarg from Srinagar. There are many sporting activities that kids along with elder ones can enjoy.</p>
+                        <!-- 
                         <h4>Highlights</h4>
-                        <p>Shikara Ride On Dal LakeVisit To Mughal GardenGondola Ride At Gulmarg Visit To Aru Valley, Betaab Valley &Chandanwari At PahalgamPrivate Transfers & Sightseeing.</p>
+                        <p>Shikara Ride On Dal LakeVisit To Mughal GardenGondola Ride At Gulmarg Visit To Aru Valley, Betaab Valley &Chandanwari At PahalgamPrivate Transfers & Sightseeing.</p> -->
                         <h5>DAY 1</h5>
                         <div class="d-md-flex mt-1 mb-12">
 
                             <ul>
-                                <li>Welcome to Srinagar. Our representative / driver will pickup from Srinagar Airport or Railway Station. Check into hotel /houseboat and relax for some time.</li>
-                                <li>Later you will head to world famous Mughal Gardens i.e. Nishat Garden, Shalimar Garden and Chashme Shahi. In Evening enjoy Shikara Ride on Dal lake for 01 Hour.</li>
-                                <li>Later Back to the hotel/houseboat and have a delicious dinner. overnight stay at Srinagar Houseboat /Hotel.</li>
+                                <li>Welcome to Srinagar the city of Lakes you will met over representative and get transferred to Hotel and then local sight seen of Srinagar visiting Nishat, Shalimar Chesham shahi overnight stay in hotel in Srinagar. </li>
+
 
                             </ul>
 
@@ -157,10 +78,9 @@ include './layouts/message.php';
                         <div class="d-md-flex mt-1 mb-12">
 
                             <ul>
-                                <li>SRINAGAR TO PAHALGAM TO SRINAGAR.</li>
-                                <li>Once you are done with scrumptious breakfast, then head to Pahalgam Valley. . Pahalgam is 2440 Mtrs above sea level (Valley of Shepherds) on the way visit Saffron fields. Pahalgam is the most famous place for Indian Film Industry. When you visit Pahalgam, you can enjoy all the sporting activities.</li>
-                                <li>Enjoy the nature charm of the valley. One can visit Betaab Valley, Chandanwari and Aru Valley in Pahalgam (Direct payment basis).After sightseeing return to Srinagar Hotel. Enjoy your dinner & lovely stay at Srinagar hotel.</li>
-
+                                <li>After all the exciting experiences and astounding views in Srinagar, you will be driven to Sonamarg today.</li>
+                                <li>The drive will begin after your breakfast in the hotel and will take around 3 hours to complete. Fondly called the ‘Meadow of Gold’, Sonamarg is perched at a height of 9,000 ft. above the sea level and lies in the scenic Sindh Valley. </li>
+                                <li>Nestled amidst colourful and flowery meadows, your arrival in the hill station will be greeted by an exciting pony ride to the Thajiwas Glacier, which serves as one of the best Sonamarg attractions. Returning from the glacier, you will be driven back to Srinagar, where you can relish the day with a scrumptious dinner and overnight stay in the hotel .</li>
                             </ul>
 
                         </div>
@@ -168,9 +88,9 @@ include './layouts/message.php';
                         <div class="d-md-flex mt-1 mb-12">
 
                             <ul>
-                                <li>Today morning after having your delicious breakfast you can go for the day trip to Gulmarg.</li>
-                                <li>Gulmarg is Approx. 2730 Mtrs above the sea Level) and known as ("Meadow of Flowers").Gulmarg is most beautiful town, a beautiful hill station, a popular skiing destination during winters..</li>
-                                <li>Gulmarg is famous because of its "Gulmarg Gondola," one of the highest cable car in the world (Direct Payment Basis). After sightseeing return to Srinagar Hotel. Enjoy your dinner & lovely stay at Srinagar hotel.</li>
+                                <li>Today’s breakfast will bring an end to your Srinagar stay, and will take you to Gulmarg! Post breakfast in the hotel/houseboat, take an enthralling drive through the scenic trails of Srinagar and its hilly terrains to reach Gulmarg within 2-3 hours.</li>
+                                <li>Located at an altitude of 2,730m, Gulmarg or the ‘Meadow of Gold’ is one of the most popular and highest visited skiing destinations in the entire country. It is also in this hill station, you can visit the highest golf course in the world! </li>
+                                <li>During your drive, the panoramic views of the Nanga Parbat and Tangmarg will behold all your attentions for sure! Arriving in Gulmarg, join a 3-4 hours trek to Khilangmarg and witness the magical beauty of the hill station. Completing this trek, check-in into a hotel and enjoy your dinner with an overnight stay.</li>
 
                             </ul>
 
@@ -180,7 +100,7 @@ include './layouts/message.php';
                         <div class="d-md-flex mt-1 mb-12">
 
                             <ul>
-                                <li>Today on time you get transferred to the Srinagar airport for your onward journey</li>
+                                <li>On the last day of your houseboat tour in Kashmir; after breakfast in the hotel, you will be driven back to Srinagar. Arriving in the capital city, the tour will come to an end with your drop either at the airport </li>
 
 
                             </ul>
@@ -295,11 +215,42 @@ include './layouts/message.php';
                             </div>
                         </div>
                     </div> -->
+                    <!-- <div class="col-md-12 hotel-single ftco-animate mb-5 mt-4">
+                        <section class="ftco-section contact-section ftco-degree-bg">
+                            <div class="container">
+                                <div class="row d-flex mb-5 contact-info">
+                                    <div class="col-md-12 mb-4">
+                                        <h2 class="h4">Book Now</h2>
+                                    </div>
+                                    <div class="w-100"></div>
+                                    <div class="col-md-3">
+                                        <p><span>Address:</span> Kralyar Jogi Lankar Rainawari, Srinagar Kashmir, 190003</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p><span>Phone:</span> <a href="tel://1234567920">+91 9797 973 325</a></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@neversleepskashmir.com</a></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p><span>Website</span> <a href="#">neversleepskashmir.com</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="row block-9">
+
+                                    <?php
+                                    include './layouts/contact-form.php'
+                                    ?>
+                                    <div class="col-md-6" id="map"></div>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div> -->
                     <?php
                     include './layouts/contact-form.php'
                     ?>
-
-
 
 
                 </div>

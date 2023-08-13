@@ -63,7 +63,7 @@ include './layouts/message.php';
             </div>
 
             <div class="col-md-12">
-                <p>Promotional Material: Neversleeps Kashmir reserves the right to take photographs/videos of participants and use them for any marketing/promotional activity. Any objection should be sent in writing before the commencement of any tour with us
+                <p>Promotional Material: Trip Tourice Holidays reserves the right to take photographs/videos of participants and use them for any marketing/promotional activity. Any objection should be sent in writing before the commencement of any tour with us
                     Identity Proof
                     Please carry valid Identity Proof. A valid passport and visa for all tourists from outside India, and for Indians a valid identity proof preferably Aadhaar Card.
                    

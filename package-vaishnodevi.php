@@ -12,13 +12,13 @@ include './layouts/header.php';
 include './layouts/message.php';
 ?>
 
-<div class="hero-wrap js-fullheight customHero" style="background-image: url('images/bg_3.jpg');">
+<div class="hero-wrap js-fullheight customHero" style="background-image: url('images/pac_2.jpg');">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
             <div class="col-md-9 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
                 <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Tour</span></p>
-                <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Deluxe Tour Package</h1>
+                <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">VAISHNO DEVI & KASHMIR TOUR PACKAGE</h1>
             </div>
         </div>
     </div>
@@ -29,94 +29,16 @@ include './layouts/message.php';
 <section class="ftco-section ftco-degree-bg">
     <div class="container">
         <div class="row">
-            <!-- <div class="col-lg-3 sidebar">
-        		<div class="sidebar-wrap bg-light ftco-animate">
-        			<h3 class="heading mb-4">Find City</h3>
-        			<form action="#">
-        				<div class="fields">
-		              <div class="form-group">
-		                <input type="text" class="form-control" placeholder="Destination, City">
-		              </div>
-		              <div class="form-group">
-		                <div class="select-wrap one-third">
-	                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-	                    <select name="" id="" class="form-control" placeholder="Keyword search">
-	                      <option value="">Select Location</option>
-	                      <option value="">San Francisco USA</option>
-	                      <option value="">Berlin Germany</option>
-	                      <option value="">Lodon United Kingdom</option>
-	                      <option value="">Paris Italy</option>
-	                    </select>
-	                  </div>
-		              </div>
-		              <div class="form-group">
-		                <input type="text" id="checkin_date" class="form-control" placeholder="Date from">
-		              </div>
-		              <div class="form-group">
-		                <input type="text" id="checkin_date" class="form-control" placeholder="Date to">
-		              </div>
-		              <div class="form-group">
-		              	<div class="range-slider">
-		              		<span>
-										    <input type="number" value="25000" min="0" max="120000"/>	-
-										    <input type="number" value="50000" min="0" max="120000"/>
-										  </span>
-										  <input value="1000" min="0" max="120000" step="500" type="range"/>
-										  <input value="50000" min="0" max="120000" step="500" type="range"/>
-										  </svg>
-										</div>
-		              </div>
-		              <div class="form-group">
-		                <input type="submit" value="Search" class="btn btn-primary py-3 px-5">
-		              </div>
-		            </div>
-	            </form>
-        		</div>
-        		<div class="sidebar-wrap bg-light ftco-animate">
-        			<h3 class="heading mb-4">Star Rating</h3>
-        			<form method="post" class="star-rating">
-							  <div class="form-check">
-									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-									<label class="form-check-label" for="exampleCheck1">
-										<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></p>
-									</label>
-							  </div>
-							  <div class="form-check">
-						      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-						      <label class="form-check-label" for="exampleCheck1">
-						    	   <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i></span></p>
-						      </label>
-							  </div>
-							  <div class="form-check">
-						      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-						      <label class="form-check-label" for="exampleCheck1">
-						      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
-						     </label>
-							  </div>
-							  <div class="form-check">
-							    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-						      <label class="form-check-label" for="exampleCheck1">
-						      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
-						      </label>
-							  </div>
-							  <div class="form-check">
-						      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-						      <label class="form-check-label" for="exampleCheck1">
-						      	<p class="rate"><span><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
-							    </label>
-							  </div>
-							</form>
-        		</div>
-          </div> -->
+
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-md-12 ftco-animate">
                         <div class="single-slider owl-carousel">
                             <div class="item">
-                                <div class="hotel-img" style="background-image: url(images/bg_4.jpg);"></div>
+                                <div class="hotel-img" style="background-image: url(images/pac_2.jpg);"></div>
                             </div>
                             <div class="item">
-                                <div class="hotel-img" style="background-image: url(images/bg_2.jpg);"></div>
+                                <div class="hotel-img" style="background-image: url(images/pac_1.jpg);"></div>
                             </div>
                             <div class="item">
                                 <div class="hotel-img" style="background-image: url(images/image_2.jpg);"></div>
@@ -125,9 +47,9 @@ include './layouts/message.php';
                     </div>
                     <div class="col-md-12 hotel-single mt-4 mb-5 ftco-animate">
                         <span>Our Best Destination &amp; Tour</span>
-                        <h2>Deluxe Tour Package</h2>
+                        <h2>VAISHNO DEVI & KASHMIR TOUR PACKAGE</h2>
                         <p class="rate mb-5">
-                            <span class="loc"><a href="#"><i class="icon-map"></i> 4 Days 3 Nights</a></span>
+                            <span class="loc"><a href="#"><i class="icon-map"></i> 8 Days 7 Nights</a></span>
                             <span class="star">
                                 <i class="icon-star"></i>
                                 <i class="icon-star"></i>
@@ -138,17 +60,16 @@ include './layouts/message.php';
                         </p>
                         <p>Kashmir valley is the dream destination for everyone to visit in their life time. The serene climate, snow capped mountains and apple trees around make it a visual treat for travellers.</p>
 
-                        <p>The 3 Nights 4 Days Srinagar itinerary allows you to witness the breathtaking and scenic beauty of the place. As part of the package, you will head to Gulmarg and Pahalgam from Srinagar. There are many sporting activities that kids along with elder ones can enjoy.</p>
-
+                        <!-- <p>The 3 Nights 4 Days Srinagar itinerary allows you to witness the breathtaking and scenic beauty of the place. As part of the package, you will head to Gulmarg and Sonamarg from Srinagar. There are many sporting activities that kids along with elder ones can enjoy.</p> -->
+                        <!-- 
                         <h4>Highlights</h4>
-                        <p>Shikara Ride On Dal LakeVisit To Mughal GardenGondola Ride At Gulmarg Visit To Aru Valley, Betaab Valley &Chandanwari At PahalgamPrivate Transfers & Sightseeing.</p>
+                        <p>Shikara Ride On Dal LakeVisit To Mughal GardenGondola Ride At Gulmarg Visit To Aru Valley, Betaab Valley &Chandanwari At PahalgamPrivate Transfers & Sightseeing.</p> -->
                         <h5>DAY 1</h5>
                         <div class="d-md-flex mt-1 mb-12">
 
                             <ul>
-                                <li>Welcome to Srinagar. Our representative / driver will pickup from Srinagar Airport or Railway Station. Check into hotel /houseboat and relax for some time.</li>
-                                <li>Later you will head to world famous Mughal Gardens i.e. Nishat Garden, Shalimar Garden and Chashme Shahi. In Evening enjoy Shikara Ride on Dal lake for 01 Hour.</li>
-                                <li>Later Back to the hotel/houseboat and have a delicious dinner. overnight stay at Srinagar Houseboat /Hotel.</li>
+                                <li>Jammu Railway & Airport / railway station pickup transfer to hotel night stay at hotel katra. </li>
+
 
                             </ul>
 
@@ -157,9 +78,7 @@ include './layouts/message.php';
                         <div class="d-md-flex mt-1 mb-12">
 
                             <ul>
-                                <li>SRINAGAR TO PAHALGAM TO SRINAGAR.</li>
-                                <li>Once you are done with scrumptious breakfast, then head to Pahalgam Valley. . Pahalgam is 2440 Mtrs above sea level (Valley of Shepherds) on the way visit Saffron fields. Pahalgam is the most famous place for Indian Film Industry. When you visit Pahalgam, you can enjoy all the sporting activities.</li>
-                                <li>Enjoy the nature charm of the valley. One can visit Betaab Valley, Chandanwari and Aru Valley in Pahalgam (Direct payment basis).After sightseeing return to Srinagar Hotel. Enjoy your dinner & lovely stay at Srinagar hotel.</li>
+                                <li>After breakfast transfer to Katra . Overnight stay in a Hotel at Katra Mata Vaishnodevi Darshans leave for holy shrine of Mata Vaishnavi temple. The walk up to shrine is 2.5 kms from the Sanjichat. Complete yatra after visiting Bhairon nath Temple 2.6 kms from the shrine. Return to Sanjichat to take the helicopter back to katra. Overnight stay in hotel at Katra. </li>
 
                             </ul>
 
@@ -168,9 +87,8 @@ include './layouts/message.php';
                         <div class="d-md-flex mt-1 mb-12">
 
                             <ul>
-                                <li>Today morning after having your delicious breakfast you can go for the day trip to Gulmarg.</li>
-                                <li>Gulmarg is Approx. 2730 Mtrs above the sea Level) and known as ("Meadow of Flowers").Gulmarg is most beautiful town, a beautiful hill station, a popular skiing destination during winters..</li>
-                                <li>Gulmarg is famous because of its "Gulmarg Gondola," one of the highest cable car in the world (Direct Payment Basis). After sightseeing return to Srinagar Hotel. Enjoy your dinner & lovely stay at Srinagar hotel.</li>
+                                <li>After breakfast towards to srinagar 240km'' journey to personel cab 6 hour's and night stay at Srinagar hotel.</li>
+
 
                             </ul>
 
@@ -180,7 +98,53 @@ include './layouts/message.php';
                         <div class="d-md-flex mt-1 mb-12">
 
                             <ul>
-                                <li>Today on time you get transferred to the Srinagar airport for your onward journey</li>
+                                <li>Today after breakfast enjoy a picturesque drive to Gulmarg, the Meadow of Flowers, 2730 mts above sea level Gulmarg offers spectacular views of snow capped mountain peaks, conifer forests and green meadows; it is home to the highest 18 hole golf course of the world. Arrive Gulmarg and transfer to hotel. </li>
+                                <li>Enjoy a Gondola ride (Gandola ride is subject to weather conditions) to Khilanmarg (1st Phase) for a breathtaking view of Nanga Parbat. One can opt for gondola cable car ride for 2nd level too on direct payment basis, subject to availability and weather conditions. </li>
+                                <li>Thereafter time is free for activities on your own. You may enjoy an optional sledge ride on the snow covered slopes (on direct payment basis). Overnight stay at the tour of world famous Mughal Gardens i.e. Nishat Garden, Shalimar Garden and Cheshma Shahi.Night stay at Hotel </li>
+
+                            </ul>
+
+                        </div>
+
+                        <h5>DAY 5</h5>
+                        <div class="d-md-flex mt-1 mb-12">
+
+                            <ul>
+                                <li>Today after an early breakfast leave for Pahalgam, the Valley of Shepherds via Srinagar.
+                                    Drive through saffron fields; visit Awantipura ruins of an 1100 yr old temple of Lord Vishnu. Drive through the pine forest and along the Lidder River. Arrive Pahalgam and transfer to your hotel. Rest of the day is at leisure. Overnight stay at hotel in Pahalgam
+                                </li>
+                                <li>Aru is located around 12 from Pahalgam, 11 km upstream from the Lidder River. Noted for its scenic meadows, lakes andmountains, it is a base camp for trekking to the Kolhoi Glacier and Tarsar Lake. The village lies of the left bank of the Aru River, which is a tributary of the Lidder River. </li>
+                                <li>Betaab Valley is a very famous tourist spot situated at a distance of 15 kilometers from Pahalgam. The valley got its name from the Sunny Deol-Amrita Singh hit debut film Betaab. The Valley is towards northeast of Pahalgam and falls between Pahalgam and Chandanwari and is en route Amarnath Temple Yatra. The valley surrounded by lush green meadows, snow clad mountains and covered with dense vegetation. </li>
+                                <li>Chandanwari is situated 16-km from Pahalgam; Chandanwari is the starting point of the Amarnath Yatra, which takes place every year in the month of Sawan (Rain). It is famous for snow sledging on a snow bridge. Night stay at Pahalgam. </li>
+                            </ul>
+
+                        </div>
+                        <h5>DAY 6</h5>
+                        <div class="d-md-flex mt-1 mb-12">
+
+                            <ul>
+                                <li>Today after breakfast enjoy a Srinagar sightseeing NISHAT GARDEN Located on the bank of the Dal Lake, with the Zaberwan Mountains as its backdrop, Nishat Bagh is a garden of bliss that commands a magnificent view of the lake beneath the snowcapped Pir Panjal mountain range that stands far away to the west of the valley. The Bagh was designed and built in 1633 by Asif Khan, elder brother of Nur Jehan. </li>
+                                <li>The Shalimar Bagh is the celebrated royal garden of Kashmir. The Emperor Jahangir was so fascinated with the garden that he called it "one of the sights of Kashmir." Shalimar Bagh is located on the northeast side of Lake Dal, approximately fifteen kilometers away from the center of Srinagar. It was laid out by Jahangir as Farah Baksh ("the delightful") in 1619, while he was founding the city of Srinagar. </li>
+                                <li>Cheshma Shahi ( the royal spring), also called Cheshma Shahi, is one of the Mughal gardens built around a spring by Ali Mardan, a governor of Mughal emperor Shah Jahan, in 1632. The garden is located in the Zaberwan Range, near Rajbhawan (Governor's house) overlooking Dal Lake in Srinagar, Kashmir. </li>
+
+                            </ul>
+
+                        </div>
+                        <h5>DAY 7</h5>
+                        <div class="d-md-flex mt-1 mb-12">
+
+                            <ul>
+                                <li>After breakfast drive to Sonmarg Valley Of mountains the distance of 90kms 3 hours drive, Sonmarg lies at the head of Sindh valley. The drive through here presents a Spectacular facet of the countryside. Today you can visit zero point and thajwas glacier(by your own expenses) and then overnight stay in hotel in Srinagar. </li>
+
+
+                            </ul>
+
+                        </div>
+                        <h5>DAY 8</h5>
+                        <div class="d-md-flex mt-1 mb-12">
+
+                            <ul>
+                                <li>Today will be last day of this exotic tour to Srinagar! After having breakfast in the hotel, you will finally be dropped at the railway station or the airport; the tour will end with your drop. </li>
 
 
                             </ul>
@@ -197,8 +161,9 @@ include './layouts/message.php';
                         <h4 class="mb-4">Take A Tour</h4>
                         <div class="block-16">
                             <figure>
-                                <img src="images/destination-1.jpg" alt="Image placeholder" class="img-fluid">
-                                <a href="https://www.youtube.com/watch?v=EYlyfLOx4D4
+                                <img src="images/pac_2.jpg" alt="Image placeholder" class="img-fluid">
+                                <a href="https: //www.youtube.com/watch?v=cvdADf-nZUE
+
 " class="play-button popup-vimeo"><span class="icon-play"></span></a>
                             </figure>
                         </div>
@@ -295,11 +260,42 @@ include './layouts/message.php';
                             </div>
                         </div>
                     </div> -->
+                    <!-- <div class="col-md-12 hotel-single ftco-animate mb-5 mt-4">
+                        <section class="ftco-section contact-section ftco-degree-bg">
+                            <div class="container">
+                                <div class="row d-flex mb-5 contact-info">
+                                    <div class="col-md-12 mb-4">
+                                        <h2 class="h4">Book Now</h2>
+                                    </div>
+                                    <div class="w-100"></div>
+                                    <div class="col-md-3">
+                                        <p><span>Address:</span> Kralyar Jogi Lankar Rainawari, Srinagar Kashmir, 190003</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p><span>Phone:</span> <a href="tel://1234567920">+91 9797 973 325</a></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@neversleepskashmir.com</a></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p><span>Website</span> <a href="#">neversleepskashmir.com</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="row block-9">
+
+                                    <?php
+                                    include './layouts/contact-form.php'
+                                    ?>
+                                    <div class="col-md-6" id="map"></div>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div> -->
                     <?php
                     include './layouts/contact-form.php'
                     ?>
-
-
 
 
                 </div>

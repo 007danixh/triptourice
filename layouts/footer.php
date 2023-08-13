@@ -11,9 +11,9 @@
           <img src="./images/logo-transparentbg-2.png" alt="" class="float-left" style="height:70px;"> <br>
           <p style="margin-top:50px">Experience the breathtaking landscapes and rich culture of Kashmir with our expertly crafted tour and travel packages. Book now!.</p>
           <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-            <li class="ftco-animate"><a href="https://twitter.com/Neversleepsk"><span class="icon-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100090950994775"><span class="icon-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="https://instagram.com/neversleepskashmir?igshid=MjEwN2IyYWYwYw=="><span class="icon-instagram"></span></a></li>
+            <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-twitter"></span></a></li>
+            <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
+            <li class="ftco-animate"><a href="https://instagram.com/"><span class="icon-instagram"></span></a></li>
           </ul>
         </div>
       </div>

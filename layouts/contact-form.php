@@ -4,81 +4,65 @@
      }
  </style>
 
- <!-- <div class="container-xxl py-5">
-     <div class="container py-5 px-lg-5">
-         <div class="wow fadeInUp" data-wow-delay="0.1s">
-             <p class="section-title text-secondary justify-content-center"><span></span>Contact Us<span></span></p>
-             <h1 class="text-center mb-5">Contact For Any Query</h1>
-         </div>
-         <div class="row justify-content-center">
-             <div class="col-lg-7">
-                 <div class="wow fadeInUp" data-wow-delay="0.3s">
-                     <form name="conForm" action="./layout/contact-form-logic" method="POST" class="contact-form" onsubmit=" return validateForm()">
-                     
-                         <div class="row g-3">
-                             <div class="col-md-6">
-                                 <div class="form-floating">
-                                     <input type="text" class="form-control"  name="name" required placeholder="Your Name">
-                                     <label for="name">Your Name</label>
-                                     <span class="formErr" id="name"></span>
-                                 </div>
-                             </div>
-                             <div class="col-md-6">
-                                 <div class="form-floating">
-                                     <input type="email" class="form-control"  name="email" required placeholder="Your Email">
-                                     <label for="email">Your Email</label>
-                                     <span class="formErr" id="email"></span>
-                                 </div>
-                             </div>
-                             <div class="col-12">
-                                 <div class="form-floating">
-                                     <input type="text" class="form-control" id="subject" name="phone" required placeholder="Phone No.">
-                                     <label for="subject">Contact No.</label>
-                                     <span class="formErr" id="phone"></span>
-                                 </div>
-                             </div>
-                             <div class="col-12">
-                                 <div class="form-floating">
-                                     <textarea class="form-control" placeholder="Leave a message here" name="message" style="height: 150px"></textarea>
-                                     <label for="message">Message</label>
-                                     <span class="formErr" id="message"></span>
-                                 </div>
-                             </div>
-                             <div class="col-12">
-                                 <button class="btn btn-primary w-100 py-3" name="submit" type="submit">Send Message</button>
-                             </div>
-                         </div>
-                     </form>
+ <div class="col-md-12 hotel-single ftco-animate mb-5 mt-4">
+     <section class="ftco-section contact-section ftco-degree-bg">
+         <div class="container">
+             <div class="row d-flex mb-5 contact-info">
+                 <div class="col-md-12 mb-4">
+                     <h2 class="h4">Contact Information</h2>
+                 </div>
+                 <div class="w-100"></div>
+                 <div class="col-md-3">
+                     <p><span>Address:</span> <a href="https://goo.gl/maps/iT4Gfqn4DweRbCbn7">Barbar Shah, Habba Kadal, Srinagar, Jammu and Kashmir 190001</a></p>
+                 </div>
+                 <div class="col-md-3">
+                     <p><span>Phone:</span> <a href="tel:919541403714">+91 9541 403 714</a></p>
+                 </div>
+                 <div class="col-md-3">
+                     <p><span>Email:</span> <a href="mailto:info@triptourice.com">info@triptourice.com</a></p>
+                 </div>
+                 <div class="col-md-3">
+                     <p><span>Website:</span> <a href="#">triptourice.com</a></p>
                  </div>
              </div>
-         </div>
-     </div>
- </div> -->
+             <div class="row block-9">
+                 <div class="col-md-6 pr-md-5">
+                     <form name="conForm" action="./layouts/contact-form-logic" method="POST" class="contact-form" onsubmit=" return validateForm()">
+                         <div class="form-group">
+                             <input type="text" name="name" class="form-control" required placeholder="Your Name">
+                             <span class="formErr" id="name"></span>
+                         </div>
+                         <div class="form-group">
+                             <input type="email" name="email" class="form-control" required placeholder="Your Email">
+                             <span class="formErr" id="email"></span>
+                         </div>
+                         <div class="form-group">
+                             <input type="text" class="form-control" name="phone" required placeholder="Phone No.">
+                             <span class="formErr" id="phone"></span>
+                         </div>
+                         <div class="form-group">
+                             <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                             <span class="formErr" id="message"></span>
+                         </div>
+                         <div class="form-group">
+                             <button type="submit" name="submit" value="Send Message" class="btn btn-primary py-3 px-5"> Send Message </button>
+                         </div>
+                     </form>
 
- <div class="col-md-6 pr-md-5">
-     <form name="conForm" action="./layouts/contact-form-logic" method="POST" class="contact-form" onsubmit=" return validateForm()">
-         <div class="form-group">
-             <input type="text" name="name" class="form-control" required placeholder="Your Name">
-             <span class="formErr" id="name"></span>
-         </div>
-         <div class="form-group">
-             <input type="email" name="email" class="form-control" required placeholder="Your Email">
-             <span class="formErr" id="email"></span>
-         </div>
-         <div class="form-group">
-             <input type="text" class="form-control" name="phone" required placeholder="Phone No.">
-             <span class="formErr" id="phone"></span>
-         </div>
-         <div class="form-group">
-             <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-             <span class="formErr" id="message"></span>
-         </div>
-         <div class="form-group">
-             <button type="submit" name="submit" value="Send Message" class="btn btn-primary py-3 px-5"> Send Message </button>
-         </div>
-     </form>
+                 </div>
 
+
+                 <div class="col-md-6" id="map"></div>
+             </div>
+
+         </div>
+     </section>
  </div>
+
+
+
+
+
 
 
 

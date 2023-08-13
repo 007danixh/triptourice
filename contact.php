@@ -26,39 +26,13 @@ include './layouts/message.php';
 </div>
 
 <section class="ftco-section contact-section ftco-degree-bg">
-  <div class="container">
-    <div class="row d-flex mb-5 contact-info">
-      <div class="col-md-12 mb-4">
-        <h2 class="h4">Contact Information</h2>
-      </div>
-      <div class="w-100"></div>
-      <div class="col-md-3">
-        <p><span>Address:</span> <a href="https://goo.gl/maps/iT4Gfqn4DweRbCbn7
-">Barbar Shah, Habba Kadal, Srinagar, Jammu and Kashmir 190001</a></p>
-      </div>
-      <div class="col-md-3">
-        <p><span>Phone:</span> <a href="tel:919541403714">+91 9541 403 714</a></p>
-      </div>
-      <div class="col-md-3">
-        <p><span>Email:</span> <a href="mailto:info@triptourice.com">info@triptourice.com</a></p>
-      </div>
-      <div class="col-md-3">
-        <p><span>Website:</span> <a href="#">triptourice.com</a></p>
-      </div>
-    </div>
-
-    <div class="row block-9">
-
-      <?php
-      include './layouts/contact-form.php'
-      ?>
-      <div class="col-md-6" id="map"></div>
-    </div>
-
-  </div>
+  
+<?php
+include './layouts/contact-form.php'
+?>
 </section>
+
 
 <?php
 include './layouts/footer.php';
 ?>
-

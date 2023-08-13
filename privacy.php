@@ -33,7 +33,7 @@ include './layouts/message.php';
             </div>
             <div class="w-100"></div>
             <div class="col-md-12">
-                <p>At NeverSleepsKashmir, we are committed to protecting the privacy and confidentiality of our users' personal information. This Privacy Policy outlines how we collect, use, disclose, and protect the information you provide when using our website or services. By accessing our website or providing your personal information, you consent to the practices described in this Privacy Policy.
+                <p>At Trip Tourice Holidays, we are committed to protecting the privacy and confidentiality of our users' personal information. This Privacy Policy outlines how we collect, use, disclose, and protect the information you provide when using our website or services. By accessing our website or providing your personal information, you consent to the practices described in this Privacy Policy.
                 </p>
             </div>
             <div class="col-md-12">

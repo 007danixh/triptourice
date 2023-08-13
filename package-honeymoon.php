@@ -326,39 +326,10 @@ include './layouts/message.php';
                             </div>
                         </div>
                     </div> -->
-                    <div class="col-md-12 hotel-single ftco-animate mb-5 mt-4">
-                        <section class="ftco-section contact-section ftco-degree-bg">
-                            <div class="container">
-                                <div class="row d-flex mb-5 contact-info">
-                                    <div class="col-md-12 mb-4">
-                                        <h2 class="h4">Book Now</h2>
-                                    </div>
-                                    <div class="w-100"></div>
-                                    <div class="col-md-3">
-                                        <p><span>Address:</span> Kralyar Jogi Lankar Rainawari, Srinagar Kashmir, 190003</p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <p><span>Phone:</span> <a href="tel://1234567920">+91 9797 973 325</a></p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@neversleepskashmir.com</a></p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <p><span>Website</span> <a href="#">neversleepskashmir.com</a></p>
-                                    </div>
-                                </div>
+                    <?php
+                    include './layouts/contact-form.php'
+                    ?>
 
-                                <div class="row block-9">
-
-                                    <?php
-                                    include './layouts/contact-form.php'
-                                    ?>
-                                    <div class="col-md-6" id="map"></div>
-                                </div>
-
-                            </div>
-                        </section>
-                    </div>
 
 
 
